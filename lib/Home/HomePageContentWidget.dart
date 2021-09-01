@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_review/04-06/ZQLifeCycleStatefullWidget.dart';
 
 /// create by: zhengzeqin
 /// create time: 2021/8/31 5:29 下午
@@ -77,6 +78,7 @@ class _HomePageContentWidgetState extends State<HomePageContentWidget> {
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
             ),
+            ZQLifeCycleStatefullWidget(),
           ],
         ),
       ),
